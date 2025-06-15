@@ -55,6 +55,7 @@ Raises an error if the index is invalid (e.g., too large or less than 1).
 
 ## ✅ Sample Output
 
+```bash
 Added 10 as the head of the list.
 
 Added 20 to the end of the list.
@@ -72,7 +73,7 @@ Linked List: 10 -> 30 -> 40 -> None
 Error: Index 10 is out of range.
 
 Error: Cannot delete from an empty list.
-
+```
 
 ## 👨‍🏫 OOP Principles Used
 
