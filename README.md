@@ -39,13 +39,14 @@ class LinkedList:
         self.head = None
 ```
 
-### 3. add_node(data)
+### 3. `add_node(data)`
 Adds a new node to the end of the list.
 
-### 4. print_list()
+### 4. `print_list()`
 Prints all elements of the list in order, formatted like:
 10 -> 20 -> 30 -> None
-### 5. delete_nth_node(n)
+
+### 5. `delete_nth_node(n)`
 Deletes the nth node (1-based index). It includes exception handling:
 
 Raises an error if the list is empty.
