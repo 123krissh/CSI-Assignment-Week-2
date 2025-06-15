@@ -55,18 +55,29 @@ Raises an error if the index is invalid (e.g., too large or less than 1).
 ## ✅ Sample Output
 
 Added 10 as the head of the list.
+
 Added 20 to the end of the list.
+
 Added 30 to the end of the list.
+
 Added 40 to the end of the list.
+
 Linked List: 10 -> 20 -> 30 -> 40 -> None
+
 Deleted node at position 2 with value 20.
+
 Linked List: 10 -> 30 -> 40 -> None
+
 Error: Index 10 is out of range.
+
 Error: Cannot delete from an empty list.
 
 
 ## 👨‍🏫 OOP Principles Used
 Principle	Description	Applied In
+
 Encapsulation	Data and methods are wrapped inside classes.	Node, LinkedList classes
+
 Abstraction	User interacts with high-level methods, not internal pointer logic.	add_node, delete_nth_node, print_list
+
 Modularity	Code is organized into separate, manageable components (classes).	Separate Node and LinkedList classes
