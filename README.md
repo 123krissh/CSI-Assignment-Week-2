@@ -75,10 +75,9 @@ Error: Cannot delete from an empty list.
 
 
 ## 👨‍🏫 OOP Principles Used
-Principle	Description	Applied In
 
-Encapsulation	Data and methods are wrapped inside classes.	Node, LinkedList classes
-
-Abstraction	User interacts with high-level methods, not internal pointer logic.	add_node, delete_nth_node, print_list
-
-Modularity	Code is organized into separate, manageable components (classes).	Separate Node and LinkedList classes
+| Principle      | Description                                                            | Applied In                                  |
+|----------------|------------------------------------------------------------------------|---------------------------------------------|
+| **Encapsulation** | Data and methods are wrapped inside classes.                        | `Node`, `LinkedList` classes                |
+| **Abstraction**   | User interacts with high-level methods, not internal pointer logic. | `add_node()`, `delete_nth_node()`, `print_list()` |
+| **Modularity**    | Code is organized into separate, manageable components (classes).   | Separate `Node` and `LinkedList` classes    |
